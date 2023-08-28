@@ -1,1 +1,1 @@
-console.log("normal script.");
+console.log("normal script loaded on the document");
