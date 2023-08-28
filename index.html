@@ -9,14 +9,21 @@
       href="https://bootswatch.com/3/lumen/bootstrap.min.css"
     />
     <script src="index.js"></script>
-    <script src="/~partytown/debug/partytown.js"></script>
+    <script
+      src="/~partytown/debug/partytown.js"
+      debug="true"
+      logGetters
+      logSetters
+      logStackTraces
+      logScriptExecution
+    ></script>
     <script type="text/partytown" src="via-partytown.js"></script>
   </head>
   <body>
     <h1>This doc demonstrates how partytown as a library works</h1>
-    <hr>
+    <hr />
     <div id="viaPartytown">
-        <p>New divs will be appended to the dom every 5 seconds</p>
+      <p>A new div will be appended here</p>
     </div>
   </body>
 </html>
